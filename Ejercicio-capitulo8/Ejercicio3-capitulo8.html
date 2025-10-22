@@ -7,8 +7,37 @@
 </head>
 <body>
     <h1>INFORMACIÓN DEL PRODUCTO</h1>
-<fieldset
-
+<fieldset>
+    <legend>Satos Personales</legend>
+    Nombre:
+    <br>
+    <input type="text" name="nombre" maxlength="30"/>
+    <br>
+    Descripción:
+    <br>
+    <textarea name="Descripción" rows="5" cols="40"></textarea>
+    <br>
+    Foto:<input type="file" name="foto"/>
+    <br>
+    <input type="checkbox" name="Añadir contador de visitas" />Añadir contador de visitas
+</fieldset>
+<fieldset>
+    <legend>Datos Económicos</legend>
+    Precio:<input type="number" name="Precio" step="0.01"/>
+    <select name="Impuestos">
+            <option value="4%">4%</option>
+            <option value="10%">10%</option>
+            <option value="21%">21%</option>
+    </select>
+    <br>
+    Promoción:
+    <br>
+    <input type="radio" name="Promoción" value="Ninguno"/>Ninguno
+   <br>
+    <input type="radio" name="Promoción" value="Transporte gratuito"/>Transporte gratuito
+    <br>
+    <input type="radio" name="Promoción" value="Descuento 10%"/>Descuento 10%
+</fieldset>
 
 </body>
 </html>

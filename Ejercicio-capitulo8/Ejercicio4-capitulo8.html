@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4-capitulo8</title>
+</head>
+<body>
+    <h1>Ejercicio avanzado: Formularios con fieldset y legend</h1>
+<fieldset>
+    <legend>Datos Personales</legend>
+    Nombre: 
+   <input type="text" name="nombre" maxlength="30" placeholder="Ej: Ana Pérez"/>
+    Correo electrónico:
+    <input type="email" name="Correo electrónico" placeholder="Ejemplo@dominio.com"/>
+    Contraseña: 
+    <input type="password" name="Contraseña" maxlength="10" placeholder="8+ caracteres"/>
+    Edad:
+    <input type="number" name="Edad" min="1" max="120" placeholder="Ej: 30"/>
+    Biografía (opcional):
+    <br>
+    <textarea name="Descripción" rows="5" cols="40" placeholder="Cuéntanos algo sobre ti..."></textarea>
+</fieldset>
+<fieldset>
+<legend>Preferencias avanzadas</legend>
+Color favorito:
+    <input type="color" name="Color favorito" />
+ <select name="Recibir notificaciones">
+            <option value="Sí">Sí</option>
+            <option value="No">No</option>
+    </select>
+    Subir avatar (imagen):
+    <input type="file" name="avatar" />
+    Nivel de privacidad:
+    <input type="range" name="Nivel de privacidad" min="0" max="100" />
+    <br>
+    Notas extra:
+     <textarea name="Descripción" rows="5" cols="20" placeholder="Opcional"></textarea>
+
+</fieldset>
+
+
+</body>
+</html>

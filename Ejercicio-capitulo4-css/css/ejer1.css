@@ -1,4 +1,3 @@
-
 ul, ul li { margin: 0; padding: 0; list-style: none; }
 h1, h2, h3, p, form { margin: 0; padding: 0; }
 img { border: none; }
@@ -11,15 +10,13 @@ img { border: none; }
     margin: auto}
 
 #cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
-        border: 2px solid #777}
-
-#cabecera { clear: both;
-            padding: 1em; }
-#menu { clear: both; 
-        padding: 0.5em;
-        margin-bottom: 0.5em;
+        border: 2px solid #777
 }
+
+#cabecera { clear: both; }
+#menu { clear: both; }
 /* ajustamos a izda*/
+
 #lateral { float: left; width:20%; }
 #contenido { float: right; width: 78%; }
 #contenido #principal { float: left; width: 78%; }
@@ -35,3 +32,57 @@ img { border: none; }
 
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
+
+
+/* Ejercicio1 */
+#cabecera{
+    padding:1em;
+}
+
+/* Ejercicio2 */
+ #menu{
+    padding:0.5em;
+    margin-bottom:0.5em;
+ }
+
+/* Ejercicio3 */
+#noticias,
+#publicidad,
+#contenidoprincipal,
+#contenidosecundario{
+    padding:0.5em;
+}
+
+#pie{
+    clear:both;
+    padding:1em;
+}
+
+
+/* Ejercicio4 */
+
+#contenidoprincipal .articulo{
+margin-bottom: 1em;
+}
+
+/* Ejercicio5 */
+
+#contenidoprincipal .articulo img{
+
+width:1000px;
+float:left;
+margin: 0.5em;
+}
+
+/* Ejercicio6 */
+#publicidad{
+margin-top: 1em ;
+}
+
+/* Ejercicio7 */
+
+#pie{
+    clear:both;
+    padding: 1em;
+    margin-top: 1em;
+}

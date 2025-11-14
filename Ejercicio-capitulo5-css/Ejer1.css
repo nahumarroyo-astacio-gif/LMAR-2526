@@ -1,0 +1,6 @@
+div {position: absolute;}
+#capa_1{z-index: 5; top: 19em; left: 12em;}
+#capa_2{z-index: 15; top: 11em; left: 17em;}
+#capa_3{z-index: 25; top: 19em; right: 17.5em;}
+#capa_4{z-index: 35; top: 1em; right: 7em;}
+#ace_of_diamonds{z-index: 45; top: 25em; right: 9em;}

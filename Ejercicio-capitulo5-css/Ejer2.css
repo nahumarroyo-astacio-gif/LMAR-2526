@@ -1,0 +1,27 @@
+#Navbar{background-color: rgb(103, 239, 130);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#Section1{background-color: red;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
+#Section2{background-color: orange;
+    color: white;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Section3{background-color: pink;
+    color: white;
+    padding: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#Footer{background-color: rgb(48, 48, 254);
+    color: white;
+    padding: 30px;
+    margin-top: 10px;
+}

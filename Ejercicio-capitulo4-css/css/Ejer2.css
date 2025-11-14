@@ -23,7 +23,7 @@ img { border: none; }
 #contenido { float: right; width: 78%; overflow: hidden; }
 
 #contenido #principal { float: left; width: 74%; }
-#contenido #secundario { float: right; width: 24%; }
+#contenido #secundario { float: right; width: 24%; border: 1px solid #CC6600; }
 
 #pie { clear: both; border-top: 1px solid #C5C5C5; border-bottom: 1px solid #C5C5C5; }
 

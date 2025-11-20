@@ -1,0 +1,89 @@
+#bloque1{
+    width: 100%;
+    overflow: hidden;
+}
+#RojoGrande{background-color: rgb(249, 0, 0);
+color: aliceblue;
+padding: 150px;
+margin: 10px;
+float: left;
+text-align: left;
+height: 150px;
+width: 48%;
+box-sizing: border-box;
+
+}
+#VerdeArriba{background-color: rgb(17, 146, 0);
+color: aliceblue;
+padding: 70px;
+height: 70px;
+margin: 10px;
+width: 22%;
+float: left;
+text-align: left;
+box-sizing: border-box;
+}
+#Amarillo{background-color: rgb(242, 255, 0);
+padding: 70px;
+width: 22%;
+height: 70px;
+margin: 10px;
+float: left;
+text-align: left;
+box-sizing: border-box;
+}
+#AzulArriba{background-color: blue;
+color: aliceblue;
+padding: 70px;
+height: 70px;
+width: 22%;
+margin: 10px;
+float: left;
+text-align: left;
+box-sizing: border-box;
+}
+#Morado{background-color: blueviolet;
+color: aliceblue;
+padding: 70px;
+height: 70px;
+width: 22%;
+margin: 10px;
+float: left;
+text-align: left;
+box-sizing: border-box;
+}
+
+
+#News{
+    clear: left;
+}
+#Bloque2{
+    clear: left;
+}
+#RojoAbajo{background-color: rgb(249, 0, 0);
+color: aliceblue;
+padding: 60px;
+height: 60px;
+margin: 10px;
+float: left;
+text-align: left;
+box-sizing: border-box;
+}
+#VerdeAbajo{background-color: rgb(17, 146, 0);
+color: aliceblue;
+padding: 60px;
+height: 60px;
+margin: 10px;
+float: left;
+text-align: left;
+box-sizing: border-box;
+}
+#AzulAbajo{background-color: blue;
+color: aliceblue;
+padding: 60px;
+height: 60px;
+margin: 10px;
+float: left;
+text-align: left;
+box-sizing: border-box;
+}

@@ -1,0 +1,130 @@
+@media screen and (max-width: 319px) {
+.naranja{
+    background-color: orange;
+    display: inline-block;
+    width: 320px;
+    height: 50px;
+    }
+.verde{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 320px;
+    height: 70px;
+    }
+.azul{
+    background-color: blue;
+    display: inline-block;
+    width: 320px;
+    height: 120px;
+    }
+.gris{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 320px;
+    height: 50px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+.naranja{
+    background-color: orange;
+    display: inline-block;
+    width: 768px;
+    height: 50px;
+    }
+.verde{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 768px;
+    height: 70px;
+    }
+.azul, .azul2, .azul3{
+    background-color: blue;
+    display: inline-block;
+    width: 768px;
+    height: 120px;
+    }
+.gris{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 49.3%;
+    height: 50px;
+    }
+    .gris2{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 49.3%;
+    height: 50px;
+    }
+    .gris3{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 49.3%;
+    height: 50px;
+    }
+    .gris4{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 49.3%;
+    height: 50px;
+    }
+    
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+.naranja{
+    background-color: orange;
+    display: inline-block;
+    width: 1024px;
+    height: 50px;
+    }
+.verde{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 1024px;
+    height: 70px;
+    }
+.azul{
+    background-color: blue;
+    display: inline-block;
+    width: 33%;
+    height: 120px;
+    }
+    .azul2{
+    background-color: blue;
+    display: inline-block;
+    width: 33%;
+    height: 120px;
+    }
+    .azul3{
+    background-color: blue;
+    display: inline-block;
+    width: 33%;
+    height: 120px;
+    }
+.gris{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 24%;
+    height: 50px;
+    }
+    .gris2{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 24%;
+    height: 50px;
+    }
+    .gris3{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 24%;
+    height: 50px;
+    }
+    .gris4{
+    background-color: darkgrey;
+    display: inline-block;
+    width: 24%;
+    height: 50px;
+    }
+}
+
+

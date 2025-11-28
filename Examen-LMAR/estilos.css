@@ -1,0 +1,83 @@
+
+
+#Titulo{ color:blue;
+    text-align: center;
+ }
+ #rojo{border-color: red;}
+
+ #azul{border: 7px dashed blue;}
+
+#morado{border: 7px dotted purple;
+}
+
+#amarillo{border-color: rgb(255, 255, 0);}
+
+
+
+#letras{font-family: 'Comic sans MS';
+    border-style: dashed;
+    border-color: rgb(206, 154, 255);
+}
+#puntos{border: 2px dotted;
+    border-color: rgb(206, 154, 255);
+}
+#botones{clear: left;
+align-items: center;
+}
+#boton1{
+    background-color: rgb(113, 226, 113);
+}
+#boton2{
+    background-color: rgb(235, 126, 126);
+}
+@media screen and (max-width: 600px) {
+    #letras{
+        display: inline-block;
+        width: 100%;
+    }
+    #datos{
+        display: inline-block;
+        width: 100%;
+    }
+    #puntos{
+        display: inline-block;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    #letras{
+        display: inline-block;
+        width: 50%;
+    }
+    #datos{
+        display: inline-block;
+        width: 20%;
+    }
+    #puntos{
+        display:inline-block;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #letras{
+        display: inline-block;
+        float: left;
+    }
+    #datos{
+        display: inline-block;
+        float: right;
+    }
+    #puntos{
+        display: inline-block;
+        float: inline-start;
+    }
+
+}
+
+
+
+
+#solicitud{
+    align-items: center;
+}
+#imagen{align-items: center;}
+#redirigiendo{align-items: center;}

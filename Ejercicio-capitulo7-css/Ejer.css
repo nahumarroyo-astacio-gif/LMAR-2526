@@ -1,0 +1,17 @@
+#enlace1, #enlace2, #enlace3, #enlace4, #enlace5 {
+	margin: 1em;
+	color: #CC0000;
+	float: left;
+	clear: left;
+	padding: 2px;
+}
+
+#enlace1:hover, #enlace2:hover, #enlace3:hover, #enlace4:hover, #enlace5:hover {
+	text-decoration: none;
+	background-color: #CC0000;
+	color: #fff;
+}
+
+#enlace1:visited, #enlace2:visited, #enlace3:visited, #enlace4:visited, #enlace5:visited {
+	color: #CCC;
+}

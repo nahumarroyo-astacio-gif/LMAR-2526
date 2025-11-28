@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link href="">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Formulario del Registro Deportivo</h1>
+    <p>Completa todos los campos obligatorios * para registrarte.</p>
+    <fieldset id="letras">
+        <legend id="Datos">Datos Personales</legend>
+         Nombre*:
+        <br>
+        <input type="text" name="nombre" maxlength="20" placeholder="Max 20" required/>
+        <br>
+        Apellidos*:
+        <br>
+        <input type="text" name="Apellidos" placeholder="4-30" required/>
+        <br>
+        Edad*:
+        <br>
+        <input type="number" name="Edad" min="1" max="120" placeholder="18-46 cada medio año" step="0.5" required/>
+        <br>
+        Fecha de nacimiento*:
+        <br>
+        <input type="date" name="Fecha de Nacimiento" required/>
+        <br>
+        <p>(Formato: aaaa-mm-dd)</p>
+        <br>
+        Correo*:
+        <br>
+        <input type="email" name="Correo" required/>
+    </fieldset>
+    <fieldset>
+        <legend>Modalidades Deportivas</legend>
+        <input type="radio" name="Fútbol" value="Ninguno" checked="checked">Fútbol
+        <input type="radio" name="Baloncesto" value="Ninguno"/>Baloncesto
+        <select name="Nivel">
+            <option value="Intermedio">Intermedio</option>
+            <option value="Principiante">Principiate</option>
+            <option value="Experto">Experto</option>
+    </select>
+    </fieldset>
+    <fieldset id="puntos">
+        <legend>Dias disponibles</legend>
+        <input type="checkbox" name="Lunes" checked="checked"/>Lunes
+        <br>
+        <input type="checkbox" name="Miércoles" />Miércoles
+        <br>
+        Seguro escolar ya tramitado:
+        <input type="radio" name="Si" value="Ninguno" checked="checked"/>si
+        <input type="radio" name="No" value="Ninguno"/>No
+    </fieldset>
+    <br>
+    <p id="botones">
+    <input type="submit" name="Enviar registro" value="Enviar registro" id="boton1"/>
+    <input type="reset" name="Borrar formulario" value="Borrar formulario" id="boton2"/>
+    </p>
+</body>
+</html>

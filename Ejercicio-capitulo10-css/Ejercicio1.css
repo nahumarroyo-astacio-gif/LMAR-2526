@@ -1,0 +1,24 @@
+.tabla{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Comic Sans MS'; 
+}
+
+.Fila1{
+    background-image: url(fondo_gris.gif);
+}
+
+.Columna1{
+    background-color: #E6F3FF;
+    font-weight: bold;
+    text-align: left;
+} 
+
+.fotos{
+    float: left;
+}
+
+.Amarillo{
+    background-color: #FFFFCC;
+}
+

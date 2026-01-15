@@ -3,6 +3,7 @@
     display: flex;
     gap: 5%;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .Bloque1 {
@@ -27,14 +28,8 @@
 }
 
 .bloques {
-    width: 45%;
-    margin-bottom: 4px;
-}
-
-.bloques2 {
-    width: 45%;
-    clear: left;
-    margin-bottom: 4px;
+    width: 20%;
+    margin: 4px;
 }
 
 .nombre,
@@ -65,13 +60,13 @@ select {
     height: 1px;
     background: #ccc;
     margin: 20px 0;
+
 }
 
 .boton {
     background: linear-gradient(#e8e1c4, #c1b48c);
     border: 1px solid #9e9777;
     padding: 10px 25px;
-
     font-size: 15px;
     cursor: pointer;
     margin-left: auto;
@@ -83,4 +78,31 @@ select {
 .cuadro3:hover,
 .cuadro4:hover {
     background-color: #FF9;
+}
+
+.direccion {
+    display: block;
+    width: 50%;
+}
+
+.email {
+    width: 40%;
+}
+
+.cuadro3 {
+    position: relative;
+}
+
+.cuadro3:hover .texto {
+    display: block;
+}
+
+
+.texto {
+    display: none;
+    position: absolute;
+    top: 20px;     
+    right: 10px;    
+    width: 220px;
+    font-size: 12px;
 }

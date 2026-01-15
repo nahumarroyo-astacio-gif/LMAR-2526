@@ -5,40 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio1_capitulo11</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
 </head>
 
 <body>
-    <legend>
-        <h1>Formulario de registro</h1>
-    </legend>
-    <form>
-        <span class="">
-            
-            <input type="text" id="nombre" name="nombre"><br><br>
-            Nombre
-            <input type="text" id="apellido" name="apellido"><br><br>
-            Primer Apellido
-            <input type="text" id="apellido2" name="apellido2"><br><br>
-            Segundo Apellido
-            Email
-            <input type="email" id="email" name="email"><br><br>
-
-
-        </span>
-
-        <span>
-
-            <input type="text" id="direccion" name="direccion"><br><br>
-            Dirección
-
-
-
-
-        </span>
-        <input type="submit" value="Registrar">
+    <h1>Formulario de alta</h1>
+    <form class="conjunto">
+        <div class="Bloque1">
+            <div class="cuadro1">
+                <label class="Nombre-apellido">Nombre y apellidos<span class="Asterisco">*</span></label><br>
+                <input type="text" class="nombre" required>
+                <div class="nombre">Nombre</div>
+                <input type="text">
+                <div class="Apellido1">Primer apellido</div>
+                <input type="text">
+                <div class="Apellido2">Segundo apellido</div>
+            </div>
+            <div class="cuadro2">
+                <label>Email</label>
+                <input type="email">
+            </div>
+        </div>
+        <div class="bloque2">
+            <div class="cuadro3">
+                <label class="direccion">Dirección <span class="Asterisco">*</span></label>
+                <input type="text" required>
+                <div class="calle">Calle, número, piso, puerta</div>
+                <input class="bloques"></input>
+                <input class="bloques"></input>
+                <div class="codigo-postal">Código postal
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Municipio</div>
+                <select class="bloques"></select>
+                <select class="bloques"></select>
+                <div class="provincia">Provincia
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    País</div>
+            </div>
+            <div class="cuadro4">
+                <label class="telefono">Teléfono <span class="Asterisco">*</span></label><br>
+                <input class="bloques" required>
+                <input class="bloques" required>
+                <div class="fijo">Fijo
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Móvil</div>
+            </div>
+        </div>
+        <div class="linea"></div>
+        <button class="boton">Darme de alta →</button>
     </form>
-
-
 </body>
 
 </html>

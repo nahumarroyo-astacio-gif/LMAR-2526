@@ -68,7 +68,6 @@ select {
     border: 1px solid #9e9777;
     padding: 10px 25px;
     font-size: 15px;
-    cursor: pointer;
     margin-left: auto;
     display: block;
 }

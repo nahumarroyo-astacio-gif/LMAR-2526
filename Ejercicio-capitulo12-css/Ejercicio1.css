@@ -1,0 +1,14 @@
+.encabezado{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.encabezado .fila{
+    background-color: rgb(223, 173, 230);
+    border: 1px solid blueviolet;
+    justify-content: center;
+    padding: 0.5em;
+}

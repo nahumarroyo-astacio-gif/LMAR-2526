@@ -1,0 +1,53 @@
+.header{
+    background-color: rgb(249, 56, 56);
+    justify-content: center;
+    text-align: center;
+    width: 960px;
+    height: 30px;
+}
+
+
+.aside1{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    float: left;
+}
+
+.medio{
+    display: flex;
+}
+
+.centro{
+    background-color: rgb(126, 160, 255);
+    width: 560px;
+    height: 200px;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.aside2{
+    background-color: rgb(255, 144, 163);
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    order: 1;
+   
+}
+
+
+.footer{
+    background-color: rgb(5, 200, 5);
+    justify-content: center;
+    text-align: center;
+    width: 960px;
+    height: 30px;
+}

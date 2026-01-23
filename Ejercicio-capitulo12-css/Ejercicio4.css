@@ -1,0 +1,44 @@
+.encabezado{
+    height: 780px;
+    width: 568px;
+    display: flex;
+    border: 2px solid rgb(191, 124, 253);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bloque{
+    height: 290px;
+    width: 280px;
+    display: flex;
+    border: 2px solid rgb(191, 124, 253);
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+.cuadro-gris{
+    height: 100px;
+    width: 260px;
+    background-color: grey;
+    margin: 20px;
+}
+.cuadro-gris-arriba{
+    height: 100px;
+    width: 700px;
+    background-color: grey;
+    margin: 20px;
+}
+
+
+.lorem{
+    width: 48%;
+    border: 1px;
+    padding: 10px;
+}
+
+
+.lorem-arriba{
+    width: 100%;
+}

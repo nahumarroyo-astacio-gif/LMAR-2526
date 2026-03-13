@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+
+th, td{
+    border-bottom: 1px solid black;
+}
+
+table tr:last-child{
+    background: red;
+}
+
+table tr:nth-child(2){
+    background: rgb(15, 255, 27);
+}

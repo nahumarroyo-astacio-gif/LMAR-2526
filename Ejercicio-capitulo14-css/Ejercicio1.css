@@ -1,0 +1,15 @@
+div::first-letter{
+    color: #111111;
+    font-size: 3em;
+
+}
+
+div::first-line{
+    color: red;
+    font-size: 2em;
+}
+
+
+div{
+    color: blue;
+}

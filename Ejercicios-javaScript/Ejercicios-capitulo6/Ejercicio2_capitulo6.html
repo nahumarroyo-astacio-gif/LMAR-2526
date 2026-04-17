@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2_capitulo6</title>
+    <style type="text/css">
+    body { font-family: arial, helvetica; }
+    #info { width:160px; border:thin solid rgb(255, 255, 255); padding:.5em; position:fixed; background: #f9f9f9; }
+    #info h1 { margin: 0; font-size: 1.2em; }
+    </style>
+    <script>
+        function informacion(elEvento) {
+        var evento = elEvento || window.event;
+
+        var x = evento.clientX;
+        var y = evento.clientY;
+
+        var tamano = tamanoVentanaNavegador();
+        var anchoMedio = tamano[0] / 2;
+        var altoMedio = tamano[1] / 2;
+
+        var zonaHorizontal = (x < anchoMedio) ? "izquierda" : "derecha";
+        var zonaVertical = (y < altoMedio) ? "arriba" : "abajo";
+
+        var mensaje = ["Has pulsado en:", zonaHorizontal + " " + zonaVertical];
+        muestraInformacion(mensaje);
+    }
+
+    function muestraInformacion(mensaje) {
+        document.getElementById("info").innerHTML = '<h1>' + mensaje[0] + '</h1>';
+        for(var i = 1; i < mensaje.length; i++) {
+            document.getElementById("info").innerHTML += '<p>' + mensaje[i] + '</p>';
+        }
+    }
+
+    function tamanoVentanaNavegador(){
+        return [window.innerWidth, window.innerHeight]; 
+    }
+
+    document.onclick = informacion;
+
+    </script>
+</head>
+<body>
+    
+    <div id="info">Pulsa en cualquier zona para obtener información.</div>
+    <div style="height: 2000px;"></div>
+
+</body>
+</html>

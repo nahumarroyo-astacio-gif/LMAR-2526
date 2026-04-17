@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1_capitulo6</title>
+    <script>
+
+        function muestraOculta(id) {
+            var contenidos = document.getElementById("contenidos_" + id);
+            var enlace = document.getElementById("enlace_" + id);
+
+            if (contenidos.style.display === "none") {
+                contenidos.style.display = "block";
+                enlace.innerHTML = "Ocultar contenidos";
+            } else {
+                contenidos.style.display = "none";
+                enlace.innerHTML = "Mostrar contenidos";
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+   <p id="contenidos_1">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci.
+        Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies,
+        turpis. Quisque sapien nunc, posuere vitae, rutrum et, luctus at, pede.
+    </p>
+    <a id="enlace_1" href="#" onclick="muestraOculta(1);">Ocultar contenidos</a>
+    <br /><br />
+
+    <p id="contenidos_2">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci.
+        Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies,
+        turpis. Quisque sapien nunc, posuere vitae, rutrum et, luctus at, pede.
+    </p>
+    <a id="enlace_2" href="#" onclick="muestraOculta(2);">Ocultar contenidos</a>
+    <br /><br />
+
+    <p id="contenidos_3">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci.
+        Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies,
+        turpis. Quisque sapien nunc, posuere vitae, rutrum et, luctus at, pede.
+    </p>
+    <a id="enlace_3" href="#" onclick="muestraOculta(3);">Ocultar contenidos</a>
+
+</body>
+
+</html>

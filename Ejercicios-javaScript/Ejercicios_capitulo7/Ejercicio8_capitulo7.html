@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8_capitulo7</title>
+</head>
+<style>
+    #contenedorBarra {
+        width: 300px;
+        height: 20px;
+        border: 1px solid black;
+        margin-top: 10px;
+    }
+
+    #barra {
+        height: 100%;
+        width: 0%;
+        background-color: green;
+        transition: width 0.2s;
+    }
+</style>
+<body>
+
+    <textarea id="texto" maxlength="100" onkeyup="actualizarBarra(100)"></textarea>
+    <p>Caracteres restantes: <span id="contador">100</span></p>
+
+    <div id="contenedorBarra">
+        <div id="barra"></div>
+    </div>
+
+    <script>
+        function actualizarBarra(max) {
+            let texto = document.getElementById("texto").value;
+            let longitud = texto.length;
+
+            let restante = max - longitud;
+            document.getElementById("contador").textContent = restante;
+
+            let porcentaje = (longitud / max) * 100;
+            let barra = document.getElementById("barra");
+
+            barra.style.width = porcentaje + "%";
+
+            if (longitud >= max) {
+                barra.style.backgroundColor = "red";
+            } else {
+                barra.style.backgroundColor = "green";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4_capitulo7</title>
+</head>
+<body>
+
+    <input type="password" id="texto" onblur="validarRecuadro()"/>
+    <input type="password" id="texto2" onblur="validarRecuadro()"/>
+    <br>
+    <br>
+    <span id="mensaje" ></span>
+
+    <script>
+        function validarRecuadro(){
+            
+            let mensaje = document.getElementById("mensaje");
+
+            if(texto.value == texto2.value){
+                mensaje.textContent = "Coinciden";
+                mensaje.style.color = "green";
+            }else{
+                mensaje.textContent = "No coinciden";
+                mensaje.style.color = "red";
+            }
+ 
+        }
+
+    </script>
+
+    
+</body>
+</html>

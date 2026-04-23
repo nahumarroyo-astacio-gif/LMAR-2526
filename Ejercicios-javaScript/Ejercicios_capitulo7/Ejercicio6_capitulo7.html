@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio6_capitulo7</title>
+</head>
+
+<body>
+    <textarea id="texto" maxlength="100" onkeydown="return limitar(event, 100);" onkeyup="actualizarContador(100)"></textarea>
+    <p>Caracteres restantes: <span id="contador">100</span></p>
+    <script>
+
+        function limitar(maximoCaracteres) {
+            var elemento = document.getElementById("texto");
+            var teclasPermitidas = [
+                "Backsapce", "Delete", "ArrowLeft", "ArrowRight"
+            ];
+
+            if(teclasPermitidas.includes(event.key)){
+                return true;
+            }
+
+            if (elemento.value.length >= maximoCaracteres) {
+                return false;
+            } else {
+            }
+            return true;
+        }
+
+        function actualizarContador(maximoCaracteres){
+            var elemento = document.getElementById("texto");
+            var contador = document.getElementById("contador");
+            let restantes = maximoCaracteres - elemento.value.length;
+
+            if(restantes < 0){
+                elemento.value = elemento.value.substring(0, maximoCaracteres);
+                restantes = 0;
+            }
+            contador.textContent =  restantes;
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

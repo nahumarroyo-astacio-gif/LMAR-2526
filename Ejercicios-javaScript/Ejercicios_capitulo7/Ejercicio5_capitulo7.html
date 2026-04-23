@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5_capitulo7</title>
+</head>
+<body>
+
+    <input type="text" id="texto" onblur="validarRecuadro()"/>
+    <br>
+    <input type="email" id="email" onblur="validarRecuadro()"/>
+    <br>
+    <input type="button" value="Validar" id="button" onclick="validarRecuadro()"/>
+
+
+    <script>
+        function validarRecuadro(){
+            
+            let mensaje = document.getElementById("mensaje");
+
+            if(texto.value != "" && email.value.includes("@")){
+                button.disabled = false;
+            }else{
+                button.disabled = true;
+            }
+ 
+        }
+    </script>
+    
+</body>
+</html>

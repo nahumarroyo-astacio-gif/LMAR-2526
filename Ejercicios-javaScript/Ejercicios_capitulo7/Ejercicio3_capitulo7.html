@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3_capitulo7</title>
+</head>
+<body>
+
+    <span>Introduce solo numeros: </span>
+    <input type="text" id="numeros" onkeypress="return soloNumeros(event)">
+
+    <script>
+       function soloNumeros(event) {
+
+            let char = event.key;
+
+            if (!/[0-9]/.test(char)) {
+                return false;
+            }
+            
+            return true;
+        }
+    </script>
+
+    
+</body>
+</html>

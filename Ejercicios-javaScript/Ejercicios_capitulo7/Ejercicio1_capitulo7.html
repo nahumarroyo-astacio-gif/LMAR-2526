@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1_capitulo7</title>
+    <link rel="stylesheet" href="Ejercicio1_capitulo7.css">
+
+</head>
+<body>
+
+    <input type="text" maxlength="30" id="Recuadro" onblur="validarRecuadro()"/>
+    <br>
+    <br>
+    <span id="mensaje" >Este campo es obligatorio</span>
+
+    
+    <script>
+        function validarRecuadro(){
+            
+            let mensaje = document.getElementById("mensaje");
+
+            if(Recuadro.value.length == 0){
+                mensaje.textContent = "Este campo es obligatorio";
+                mensaje.style.color = "red";
+                Recuadro.style.borderColor = "red";
+            }else{
+                mensaje.textContent = "";
+                Recuadro.style.borderColor = "greenyellow";
+            }
+ 
+        }
+
+    </script>
+
+
+</body>
+</html>

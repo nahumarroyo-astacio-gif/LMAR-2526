@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2_capitulo7</title>
+</head>
+<body>
+    Contraseña: 
+    <input type="password" maxlength="30" id="Recuadro" onblur="validarRecuadro()"/>
+    <br>
+    <br>
+    <span id="mensaje" ></span>
+
+    
+    <script>
+        function validarRecuadro(){
+            
+            let mensaje = document.getElementById("mensaje");
+
+            if(Recuadro.value.length < 6){
+                mensaje.textContent = "Muy corta";
+                mensaje.style.color = "red";
+            }else{
+                mensaje.textContent = "Longitud valida";
+                mensaje.style.color = "green";
+            }
+ 
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio1_capitulo8</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+</head>
+
+<body>
+
+    <h2>Calendario</h2>
+
+    <input type="text" id="fecha" placeholder="Selecciona un rango de fechas">
+
+    <p id="recuadro" style="background-color: yellow; padding: 10px; width: 180px;"></p>
+
+    <!-- JS principal -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- idioma español -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/es.js"></script>
+
+    <script>
+
+        flatpickr("#fecha", {
+            dateFormat: "d/m/Y",
+            minDate: "today",
+            locale: "es",
+            onChange: function(selectedDates, dateStr, instance){
+                let fecha = selectedDates[0];
+
+                let opciones = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        let fechaFormateada = fecha.toLocaleDateString('es-ES', opciones);
+
+        document.getElementById("recuadro").innerText = fechaFormateada;
+            }
+        });
+
+
+    </script>
+
+</body>
+
+</html>

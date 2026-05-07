@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2_capitulo8</title>
+
+    <style>
+        body{padding: 20px; text-align: center;}
+        .galeria{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .galeria img{
+            border-radius: 8px;
+            cursor: pointer;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+</head>
+<body>
+     
+    <h2>Galeria de imagenes</h2>
+    <div class="galeria">
+    <a data-fslightbox="galeria" href="https://picsum.photos/id/1015/1000/600">
+        <img id="img1" src="https://picsum.photos/id/1015/300/200">
+    </a>
+
+    <a data-fslightbox="galeria" href="https://ipt.images.tshiftcdn.com/200583/x/0/iceland-photo-tours-iurie16.jpg?bg-color=%23000&dpr=1&height=1200&precrop=1.8020408163265307%3A1.2&quality=75">
+        <img id="img2" src="https://ipt.images.tshiftcdn.com/200583/x/0/iceland-photo-tours-iurie16.jpg?bg-color=%23000&dpr=1&height=1200&precrop=1.8020408163265307%3A1.2&quality=75">
+    </a>
+    <a data-fslightbox="galeria" href="https://images.squarespace-cdn.com/content/v1/56bf55504c2f85a60a9b9fe5/1635870229651-78Y07JXFO2QMGOA9YMDW/HomesteadRainbow.jpg?format=1500w">
+        <img id="img3" src="https://images.squarespace-cdn.com/content/v1/56bf55504c2f85a60a9b9fe5/1635870229651-78Y07JXFO2QMGOA9YMDW/HomesteadRainbow.jpg?format=1500w">
+    </a>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.min.js" //libreria para poder pasar las imagenes></script>  
+    
+        <script src="https://unpkg.com/@popperjs/core@2" //Librerias para tooltips></script>  
+        <script src="https://unpkg.com/tippy.js@6"></script>
+
+    <script>
+        tippy('#img1', {
+            content: 'Rio entre montañas'
+        })
+        tippy('#img2', {
+            content: 'Cascada nevada'
+        })
+        tippy('#img3', {
+            content: 'Casa de Campo'
+        })
+
+    </script>
+
+
+
+</body>
+</html>

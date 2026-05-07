@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cursos>
+
+    <curso identificador="C1">
+        <nombre>Lenguaje de marcas</nombre>
+        <duracion>98 horas</duracion>
+
+        <descripcion>Curso que sirve para diseñar paginas web</descripcion>
+
+        <becas />
+
+        <aula informatica="si">
+            <planta>2</planta>
+            <numeroAula>15</numeroAula>
+        </aula>
+
+        <precio>
+            <antiguoAlumno>280€</antiguoAlumno>
+            <nuevoAlumno>560€</nuevoAlumno>
+        </precio>
+
+        <semanas>
+            <semana horario="mañana">
+                <inicio>
+                    <dia>12</dia>
+                    <mes>2</mes>
+                    <año>2026</año>
+                </inicio>
+                <fin>
+                    <dia>25</dia>
+                    <mes>5</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+             <semana horario="tarde">
+                <inicio>
+                    <dia>24</dia>
+                    <mes>4</mes>
+                    <año>2026</año>
+                </inicio>
+                <fin>
+                    <dia>2</dia>
+                    <mes>8</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+            <semana horario="mañana">
+                <inicio>
+                    <dia>1</dia>
+                    <mes>9</mes>
+                    <año>2026</año>
+                </inicio>
+                <fin>
+                    <dia>6</dia>
+                    <mes>11</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+        </semanas>
+
+        <profesores>
+
+            <profesor tipo="teoría">
+                <nombre>Ruben</nombre>
+                <apellidos>Gonzalez López</apellidos>
+            </profesor>
+
+            <profesor tipo="prácticas">
+                <nombre>Carlos</nombre>
+                <apellidos>Martínez Pérez</apellidos>
+            </profesor>
+
+        </profesores>
+
+        <temas>
+
+            <tema numero="1">
+
+                <titulo>Introducción a HTML</titulo>
+
+                <resumen>
+                    Creación de páginas web básicas usando etiquetas HTML.
+                </resumen>
+
+                <palabrasClave>
+                    html, etiquetas, web
+                </palabrasClave>
+
+                <ejercicios>
+
+                    <practicos>
+                        <numeroEjercicios>10</numeroEjercicios>
+                        <duracion>5 horas</duracion>
+                    </practicos>
+
+                    <teoricos>
+                        <numeroPreguntas>20</numeroPreguntas>
+                        <duracion>2 horas</duracion>
+                    </teoricos>
+
+                </ejercicios>
+
+            </tema>
+
+            <tema numero="2">
+
+                <titulo>CSS y Diseño</titulo>
+
+                <resumen>
+                    Diseño visual y estilos para páginas web.
+                </resumen>
+
+                <palabrasClave>
+                    css, diseño, estilos
+                </palabrasClave>
+
+                <ejercicios>
+
+                    <practicos>
+                        <numeroEjercicios>8</numeroEjercicios>
+                        <duracion>4 horas</duracion>
+                    </practicos>
+
+                    <teoricos>
+                        <numeroPreguntas>15</numeroPreguntas>
+                        <duracion>1 hora</duracion>
+                    </teoricos>
+
+                </ejercicios>
+
+            </tema>
+
+        </temas>
+
+    </curso>
+
+        <curso identificador="C2">
+
+        <nombre>Bases de Datos</nombre>
+        <duracion>120 horas</duracion>
+
+        <descripcion>
+            Curso orientado al aprendizaje de bases de datos relacionales y SQL.
+        </descripcion>
+
+        <becas />
+
+        <aula informatica="si">
+            <planta>1</planta>
+            <numeroAula>8</numeroAula>
+        </aula>
+
+        <precio>
+            <antiguoAlumno>300€</antiguoAlumno>
+            <nuevoAlumno>600€</nuevoAlumno>
+        </precio>
+
+        <semanas>
+
+            <semana horario="mañana">
+                <inicio>
+                    <dia>10</dia>
+                    <mes>1</mes>
+                    <año>2026</año>
+                </inicio>
+
+                <fin>
+                    <dia>15</dia>
+                    <mes>3</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+
+            <semana horario="tarde">
+                <inicio>
+                    <dia>5</dia>
+                    <mes>4</mes>
+                    <año>2026</año>
+                </inicio>
+
+                <fin>
+                    <dia>20</dia>
+                    <mes>6</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+
+            <semana horario="mañana">
+                <inicio>
+                    <dia>1</dia>
+                    <mes>9</mes>
+                    <año>2026</año>
+                </inicio>
+
+                <fin>
+                    <dia>10</dia>
+                    <mes>11</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+
+        </semanas>
+
+        <profesores>
+
+            <profesor tipo="teoría">
+                <nombre>Daniel</nombre>
+                <apellidos>Leyva</apellidos>
+            </profesor>
+
+            <profesor tipo="prácticas">
+                <nombre>Lucía</nombre>
+                <apellidos>Martín Pérez</apellidos>
+            </profesor>
+
+        </profesores>
+
+        <temas>
+
+            <tema numero="1">
+
+                <titulo>Modelo Relacional</titulo>
+
+                <resumen>
+                    Introducción a las tablas, claves y relaciones.
+                </resumen>
+
+                <palabrasClave>
+                    tablas, relaciones, claves
+                </palabrasClave>
+
+                <ejercicios>
+
+                    <practicos>
+                        <numeroEjercicios>12</numeroEjercicios>
+                        <duracion>6 horas</duracion>
+                    </practicos>
+
+                    <teoricos>
+                        <numeroPreguntas>20</numeroPreguntas>
+                        <duracion>2 horas</duracion>
+                    </teoricos>
+
+                </ejercicios>
+
+            </tema>
+
+            <tema numero="2">
+
+                <titulo>Consultas SQL</titulo>
+
+                <resumen>
+                    Uso de SELECT, INSERT, UPDATE y DELETE.
+                </resumen>
+
+                <palabrasClave>
+                    sql, mysql, consultas
+                </palabrasClave>
+
+                <ejercicios>
+
+                    <practicos>
+                        <numeroEjercicios>10</numeroEjercicios>
+                        <duracion>5 horas</duracion>
+                    </practicos>
+
+                    <teoricos>
+                        <numeroPreguntas>15</numeroPreguntas>
+                        <duracion>1 hora</duracion>
+                    </teoricos>
+
+                </ejercicios>
+
+            </tema>
+
+        </temas>
+
+    </curso>
+
+    <curso identificador="C3">
+
+        <nombre>Programación</nombre>
+        <duracion>150 horas</duracion>
+
+        <descripcion>
+            Curso dedicado al aprendizaje de programación en Java.
+        </descripcion>
+
+        <nobecas />
+
+        <aula informatica="si">
+            <planta>3</planta>
+            <numeroAula>20</numeroAula>
+        </aula>
+
+        <precio>
+            <antiguoAlumno>350€</antiguoAlumno>
+            <nuevoAlumno>700€</nuevoAlumno>
+        </precio>
+
+        <semanas>
+
+            <semana horario="mañana">
+                <inicio>
+                    <dia>15</dia>
+                    <mes>2</mes>
+                    <año>2026</año>
+                </inicio>
+
+                <fin>
+                    <dia>30</dia>
+                    <mes>4</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+
+            <semana horario="tarde">
+                <inicio>
+                    <dia>12</dia>
+                    <mes>5</mes>
+                    <año>2026</año>
+                </inicio>
+
+                <fin>
+                    <dia>25</dia>
+                    <mes>7</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+
+            <semana horario="mañana">
+                <inicio>
+                    <dia>3</dia>
+                    <mes>9</mes>
+                    <año>2026</año>
+                </inicio>
+
+                <fin>
+                    <dia>15</dia>
+                    <mes>11</mes>
+                    <año>2026</año>
+                </fin>
+            </semana>
+
+        </semanas>
+
+        <profesores>
+
+            <profesor tipo="teoría">
+                <nombre>Eduardo</nombre>
+                <apellidos>Jaenes</apellidos>
+            </profesor>
+
+            <profesor tipo="prácticas">
+                <nombre>Marta</nombre>
+                <apellidos>Ruiz Gómez</apellidos>
+            </profesor>
+
+        </profesores>
+
+        <temas>
+
+            <tema numero="1">
+
+                <titulo>Introducción a Java</titulo>
+
+                <resumen>
+                    Aprendizaje de variables, tipos de datos y estructuras básicas.
+                </resumen>
+
+                <palabrasClave>
+                    java, variables, programación
+                </palabrasClave>
+
+                <ejercicios>
+
+                    <practicos>
+                        <numeroEjercicios>15</numeroEjercicios>
+                        <duracion>7 horas</duracion>
+                    </practicos>
+
+                    <teoricos>
+                        <numeroPreguntas>25</numeroPreguntas>
+                        <duracion>2 horas</duracion>
+                    </teoricos>
+
+                </ejercicios>
+
+            </tema>
+
+            <tema numero="2">
+
+                <titulo>Programación Orientada a Objetos</titulo>
+
+                <resumen>
+                    Uso de clases, objetos y herencia en Java.
+                </resumen>
+
+                <palabrasClave>
+                    poo, clases, objetos
+                </palabrasClave>
+
+                <ejercicios>
+
+                    <practicos>
+                        <numeroEjercicios>10</numeroEjercicios>
+                        <duracion>6 horas</duracion>
+                    </practicos>
+
+                    <teoricos>
+                        <numeroPreguntas>18</numeroPreguntas>
+                        <duracion>2 horas</duracion>
+                    </teoricos>
+
+                </ejercicios>
+
+            </tema>
+
+        </temas>
+
+    </curso>
+
+</cursos>

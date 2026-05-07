@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ies>
+
+    <nombreCentro>IES Francisco Ayala</nombreCentro>
+
+    <web>https://www.iesfranciscoayala.es</web>
+
+    <ciclos>
+
+        <ciclo id="ASIR">
+            <nombre>Administración de Sistemas Informáticos en Red</nombre>
+            <grado>Grado Superior</grado>
+            <decretoTitulo>2009</decretoTitulo>
+        </ciclo>
+
+        <ciclo id="DAM">
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <grado>Grado Superior</grado>
+            <decretoTitulo>2010</decretoTitulo>
+        </ciclo>
+
+        <ciclo id="DAW">
+            <nombre>Desarrollo de Aplicaciones Web</nombre>
+            <grado>Grado Superior</grado>
+            <decretoTitulo>2010</decretoTitulo>
+        </ciclo>
+
+        <ciclo id="SMR">
+            <nombre>Sistemas Microinformáticos y Redes</nombre>
+            <grado>Grado Medio</grado>
+            <decretoTitulo>2008</decretoTitulo>
+        </ciclo>
+
+    </ciclos>
+
+</ies>

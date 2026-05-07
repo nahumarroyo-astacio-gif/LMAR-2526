@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alumnos>
+
+    <alumno dni="12345678A">
+        <nombre>Juan</nombre>
+        <apellidos>Pérez García</apellidos>
+        <sexo>Masculino</sexo>
+
+        <fechaNacimiento>
+            <dia>12</dia>
+            <mes>5</mes>
+            <año>2007</año>
+        </fechaNacimiento>
+
+        <direccion>Calle Sol 15, Granada</direccion>
+
+        <telefono tipo="móvil">600123456</telefono>
+
+        <notaMedia>8.5</notaMedia>
+    </alumno>
+
+    <alumno dni="23456789B">
+        <nombre>Lucía</nombre>
+        <apellidos>Martín López</apellidos>
+        <sexo>Femenino</sexo>
+
+        <fechaNacimiento>
+            <dia>3</dia>
+            <mes>9</mes>
+            <año>2006</año>
+        </fechaNacimiento>
+
+        <direccion>Avenida Andalucía 22, Motril</direccion>
+
+        <telefono tipo="fijo">958123456</telefono>
+
+        <notaMedia>7.8</notaMedia>
+    </alumno>
+
+    <alumno dni="34567890C">
+        <nombre>Carlos</nombre>
+        <apellidos>Ruiz Fernández</apellidos>
+        <sexo>Masculino</sexo>
+
+        <fechaNacimiento>
+            <dia>21</dia>
+            <mes>1</mes>
+            <año>2007</año>
+        </fechaNacimiento>
+
+        <direccion>Calle Luna 8, Almería</direccion>
+
+        <telefono tipo="móvil">622987654</telefono>
+
+        <notaMedia>9.1</notaMedia>
+    </alumno>
+
+    <alumno dni="45678901D">
+        <nombre>María</nombre>
+        <apellidos>Sánchez Torres</apellidos>
+        <sexo>Femenino</sexo>
+
+        <fechaNacimiento>
+            <dia>17</dia>
+            <mes>11</mes>
+            <año>2006</año>
+        </fechaNacimiento>
+
+        <direccion>Plaza Mayor 4, Málaga</direccion>
+
+        <telefono tipo="fijo">951654321</telefono>
+
+        <notaMedia>6.9</notaMedia>
+    </alumno>
+
+    <alumno dni="56789012E">
+        <nombre>David</nombre>
+        <apellidos>Navarro Jiménez</apellidos>
+        <sexo>Masculino</sexo>
+
+        <fechaNacimiento>
+            <dia>30</dia>
+            <mes>7</mes>
+            <año>2007</año>
+        </fechaNacimiento>
+
+        <direccion>Calle Río 10, Sevilla</direccion>
+
+        <telefono tipo="móvil">611223344</telefono>
+
+        <notaMedia>8.0</notaMedia>
+    </alumno>
+
+</alumnos>

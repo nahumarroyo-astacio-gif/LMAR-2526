@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cartelera>
+
+    <pelicula estreno="2023">
+
+        <titulo>Oppenheimer</titulo>
+
+        <nacionalidad>Estados Unidos</nacionalidad>
+
+        <duracion>
+            <horas>3</horas>
+            <minutos>0</minutos>
+        </duracion>
+
+        <director>Christopher Nolan</director>
+
+        <actores>
+
+            <actor tipo="principal">
+                <nombre>Cillian</nombre>
+                <apellidos>Murphy</apellidos>
+            </actor>
+
+            <actor tipo="reparto">
+                <nombre>Robert</nombre>
+                <apellidos>Downey Jr.</apellidos>
+            </actor>
+
+        </actores>
+
+        <descripcion>
+            Película basada en la vida de J. Robert Oppenheimer y la creación de la bomba atómica.
+        </descripcion>
+
+    </pelicula>
+
+
+
+
+
+    <pelicula estreno="2022">
+
+        <titulo>Avatar: El sentido del agua</titulo>
+
+        <nacionalidad>Estados Unidos</nacionalidad>
+
+        <duracion>
+            <horas>3</horas>
+            <minutos>12</minutos>
+        </duracion>
+
+        <director>James Cameron</director>
+
+        <actores>
+
+            <actor tipo="principal">
+                <nombre>Sam</nombre>
+                <apellidos>Worthington</apellidos>
+            </actor>
+
+            <actor tipo="reparto">
+                <nombre>Zoe</nombre>
+                <apellidos>Saldaña</apellidos>
+            </actor>
+
+        </actores>
+
+        <descripcion>
+            La familia Sully explora nuevas zonas de Pandora y se enfrenta a nuevas amenazas.
+        </descripcion>
+
+    </pelicula>
+
+
+
+
+
+    <pelicula estreno="2024">
+
+        <titulo>Dune: Parte Dos</titulo>
+
+        <nacionalidad>Canadá</nacionalidad>
+
+        <duracion>
+            <horas>2</horas>
+            <minutos>46</minutos>
+        </duracion>
+
+        <director>Denis Villeneuve</director>
+
+        <actores>
+
+            <actor tipo="principal">
+                <nombre>Timothée</nombre>
+                <apellidos>Chalamet</apellidos>
+            </actor>
+
+            <actor tipo="reparto">
+                <nombre>Zendaya</nombre>
+                <apellidos>Coleman</apellidos>
+            </actor>
+
+        </actores>
+
+        <descripcion>
+            Paul Atreides continúa su viaje entre los Fremen para vengar a su familia y cambiar el destino del universo.
+        </descripcion>
+
+    </pelicula>
+
+</cartelera>

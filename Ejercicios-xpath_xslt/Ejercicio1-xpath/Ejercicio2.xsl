@@ -11,7 +11,7 @@
         table { width: 100%; border-collapse: collapse; margin-top: 10px; box-shadow: 0 2px 3px rgba(0,0,0,0.1); }
         th, td { padding: 12px; text-align: left; border: 1px solid #ddd; }
         th { background-color: #3498db; color: white; }
-        tr:nth-child(even) { background-color: #f9f9f9; }
+        tr:nth-child { background-color: #f9f9f9; }
         tr:hover { background-color: #f1f1f1; }
     </style>
 </head>
@@ -73,7 +73,7 @@
     <h2>Modulos de mas de 4 horas semanales</h2>
     <table>
         <tr><th>Módulo</th><th>Horas Semanales</th></tr>
-        <xsl:for-each select="/ies/modulos/modulo[horasSemanales > 4]">
+        <xsl:for-each select="/ies/modulos/modulo[horasSemanales &gt; 4]">
             <tr>
                 <td><xsl:value-of select="nombre"/></td>
                 <td><xsl:value-of select="horasSemanales"/></td>
